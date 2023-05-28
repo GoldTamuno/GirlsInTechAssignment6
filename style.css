@@ -12,10 +12,7 @@
     border-bottom: 3px;
     border-left: 0;
     border-right: 0;
-    border-style: solid;
-    border-color: silver transparent;
-    position: static;
-   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 .valutico1
@@ -119,7 +116,6 @@
     order: 2;
     flex-grow: 0;
 }   
-
 
 .WorldLeading
 {
@@ -244,7 +240,6 @@
     left: 126px;
     top: 705px;
 }
-
 .trustedby
 {
     display: flex;
@@ -260,22 +255,458 @@
     top: 1340px;
     background: #FFFFFF;
 }
-
-.whyvalutico
+.trustedbox
 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 1062px;
+    height: 120px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.trustedtext
+{
+    width: 849px;
+    height: 44px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #373737;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.OurTeamtext
+{
+    width: 1062px;
+    height: 60px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #373737;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.companylist
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 1282px;
+    height: 399px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.row1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    width: 1282px;
+    height: 117px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Allinial
+{
+    width: 307px;
+    height: 117px;
+    background: #F9F9F9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Oaklins
+{
+    height: 117px;
+    width: 307px;
+    left: 325px;
+    top: 0px;
+    border-radius: 0px;
+    background: #F9F9F9;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#RusellBedford
+{
+    width: 307px;
+    height: 117px;
+    left: 650;
+    background: #F9F9F9;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#Crowe
+{
+    width: 307px;
+    height: 117px;
+    left: 975;
+    background: #F9F9F9;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.row2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    width: 1282px;
+    height: 117px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+#BCRH
+{
+    width: 307px;
+    height: 117px;
+    background: #F9F9F9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#praxity
+{
+    width: 307px;
+    height: 117px;
+    left: 325;
+    background: #F9F9F9;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#bakertilly
+{
+    width: 307px;
+    height: 117px;
+    left: 650;
+    background: #F9F9F9;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#StandardChartered
+{
+    width: 307px;
+    height: 117px;
+    left: 975px;
+    background: #F9F9F9;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.row3
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    width: 1282px;
+    height: 117px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#pandea
+{
+    width: 307px;
+    height: 117px;
+    background: #F9F9F9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#globalM
+{
+    width: 307px;
+    height: 117px;
+    left: 325;
+    background: #F9F9F9;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#cdi
+{
+    width: 307px;
+    height: 117px;
+    left: 650;
+    background: #F9F9F9;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#Rodl
+{
+    width: 307px;
+    height: 117px;
+    left: 975;
+    background: #F9F9F9;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.whyvaluticoframe
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 72px 103px;
     gap: 10px;
     position: absolute;
-    width: 1500px;
-    height: 450px;
+    width: 1512px;
+    height: 456px;
     left: 0px;
     top: 2129px;
-    background: #111111;
+    background: #111111;  
 }
-.valuticofooter
+
+.whyvaluticobox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    width: 1306px;
+    height: 312px;
+    top: 72px;
+    left: 103px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.whyvalutico
+{
+    width: 281px;
+    height: 55px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.anawardwinning
+{
+    width: 893px;
+    height: 60px;
+    top: 71px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D7D7D7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 1306px;
+    height: 117px;
+    top: 195px;
+    justify-self: space-between;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.securebox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 395px;
+    height: 117px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.secure
+{
+    width: 85px;
+    height: 33px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.privatebydefault
+{
+    width: 438px;
+    height: 60px;
+    top: 57px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D7D7D7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.reliablebox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 395px;
+    height: 117px;
+    top: 455.5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+.reliable
+{
+    width: 96px;
+    height: 33px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.createdby
+{
+    width: 438px;
+    height: 60px;
+    top: 57px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D7D7D7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.dedicatedbox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 395px;
+    height: 101px; 
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.dedicated
+{
+    width: 311px;
+    height: 33px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.two47
+{
+    width: 395px;
+    height: 60px;
+    top: 41px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D7D7D7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.valuticofooterframe
 {
     position: absolute;
     width: 1511px;
@@ -285,3 +716,398 @@
     background: #FFFFFF;
 }
 
+.Requestfooterframe
+{
+    display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 24px 40px;
+gap: 16px;
+
+position: absolute;
+width: 278px;
+height: 75px;
+left: 616px;
+top: 1080px;
+
+background: #6FC247;
+border-radius: 16px;
+
+}
+.requestaDemoFooter
+{
+    width: 178px;
+    height: 27px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    position: relative;
+    top: 340px;
+    left: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 24px 40px;
+    gap: 16px;
+    width: 278px;
+    height: 75px;
+    background: #6FC247;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    justify-content: center;   display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 24px 40px;
+    gap: 16px;
+    position: absolute;
+    width: 278px;
+    height: 75px;
+    left: 616px;
+    top: 1080px;
+    background: #6FC247;
+    border-radius: 16px;
+}
+
+.innerfooterframe
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 85px;
+    position: absolute;
+    width: 1304px;
+    height: 936px;
+    left: 104px;
+    top: 80px;
+}
+
+.footertextframe
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 47px;
+    width: 489px;
+    height: 920px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.accurateframe
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 489px;
+    height: 180px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.accurate
+{
+    width: 489px;
+    height: 44px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #111111;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.findthecompanydata
+{
+    width: 489px;
+    height: 120px;
+    top: 60px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #111111;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.insidefootertextframe
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 489px;
+    height: 693px;
+    top: 227;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.personaliseframe
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 10px;
+    width: 477px;
+    height: 225px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.personalisebox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 413px;
+    height: 161px;
+    top: 32px;
+    left: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.personalbox2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 413px;
+    height: 161px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.personalise
+{
+    width: 296px;
+    height: 33px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #111111;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.savehours
+{
+    width: 413px;
+    height: 120px;
+    top: 41px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.valuationframe
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 10px;
+    width: 477px;
+    height: 225px;
+    top: 249px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.valuationbox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 413px;
+    height: 161px;
+    top: 32px;
+    left: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.valuation
+{
+    width: 343px;
+    height: 33px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #111111;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fromloss
+{
+    width: 413px;
+    height: 120px;
+    top: 41px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #111111;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.fastaccessframe
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 10px;
+    width: 477px;
+    height: 195px;
+    top: 498px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.fastaccessbox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 413px;
+    height: 131px;
+    top: 32px;
+    left: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fastaccessbox2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 413px;
+    height: 131px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fastaccessbox
+{
+    width: 341px;
+    height: 33px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #111111;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+
+.accessthe
+{
+    width: 413px;
+    height: 90px;
+    top: 41px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #111111;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.penwriting
+{
+    width: 731px;
+    height: 936px;
+    position: absolute;
+    left: 574px;
+    bottom:10px;
+    background: url(penwriting.jpg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+/* .valuticofooter
+{
+    position: absolute;
+    width: 1511px;
+    height: 1189px;
+    left: 0px;
+    top: 2585px;
+    background: #FFFFFF;
+}
+ */
